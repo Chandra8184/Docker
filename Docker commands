@@ -1,7 +1,19 @@
 # Create a Volume
 docker volume create volume_name
+docker volume create hellow
 docker volume ls
-docker volume inspect volume-name  
+docker volume inspect hellow
+[
+    {
+        "CreatedAt": "2023-01-03T10:48:47Z",
+        "Driver": "local",
+        "Labels": {},
+        "Mountpoint": "/var/lib/docker/volumes/hellow/_data",
+        "Name": "hellow",
+        "Options": {},
+        "Scope": "local"
+    }
+]
 # inspect     Display detailed information on one or more volumes
 # ls is used for list list the volume
 # prune    Remove all unused local volumes
