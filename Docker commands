@@ -19,3 +19,8 @@ docker volume inspect hellow
 # prune    Remove all unused local volumes
 # remove the volume 
 docker volume rm volume_name
+systemctl enable docker 
+
+service docker status
+service docker start
+service docker stop
