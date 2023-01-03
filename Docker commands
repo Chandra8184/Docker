@@ -1,0 +1,9 @@
+# Create a Volume
+docker volume create volume_name
+docker volume ls
+docker volume inspect volume-name  
+# inspect     Display detailed information on one or more volumes
+# ls is used for list list the volume
+# prune    Remove all unused local volumes
+# remove the volume 
+docker volume rm volume_name
